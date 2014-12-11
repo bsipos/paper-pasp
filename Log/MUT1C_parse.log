@@ -1,12 +1,12 @@
-[14-09-17 12:01:1410951718] Dataset ID: MUT1C
-[14-09-17 12:01:1410951718] G-tail SAM: /nfs/research2/goldman/botond/paper-pat-seq/Aln/MUT1C/gtail_aln/gtail_reads.sam
-[14-09-17 12:01:1410951718] NVTR SAM: /nfs/research2/goldman/botond/paper-pat-seq/Aln/MUT1C/nvtr_aln/nvtr_reads.sam
-[14-09-17 12:01:1410951718] Read portion used when classifying: 14
-[14-09-17 12:01:1410951718] Minimum tag length: 3
-[14-09-17 12:01:1410951718] Maximum number of Ns in the first 14 bases: 6
-[14-09-17 12:01:1410951718] List of traget transcripts: /nfs/research2/goldman/botond/paper-pat-seq/Aln/reference/genes_single_iso.tab
-[14-09-17 12:01:1410951718] Minimum mapping quality: 30
-[14-09-17 12:01:1410951718] Number of target transcripts specified: 6385
-[14-09-17 12:16:1410952608] Mean tail run length: 72.1191
-[14-09-17 12:16:1410952608] Pickling results.
-[14-09-17 12:16:1410952609] Plotting transcript reports.
+[14-11-21 16:15:1416586546] Dataset ID: MUT1C
+[14-11-21 16:15:1416586546] G-tail SAM: /nfs/research2/goldman/botond/paper-pat-seq/Aln/MUT1C/gtail_aln/gtail_reads.sam
+[14-11-21 16:15:1416586546] NVTR SAM: /nfs/research2/goldman/botond/paper-pat-seq/Aln/MUT1C/nvtr_aln/nvtr_reads.sam
+[14-11-21 16:15:1416586546] Read portion used when classifying: 14
+[14-11-21 16:15:1416586546] Minimum tag length: 3
+[14-11-21 16:15:1416586546] Maximum number of Ns in the first 14 bases: 6
+[14-11-21 16:15:1416586546] List of traget transcripts: /nfs/research2/goldman/botond/paper-pat-seq/Aln/reference/genes_single_iso.tab
+[14-11-21 16:15:1416586546] Minimum mapping quality: 30
+[14-11-21 16:15:1416586546] Number of target transcripts specified: 6385
+[14-11-21 16:32:1416587527] Mean tail run length: 72.1191
+[14-11-21 16:32:1416587527] Pickling results.
+[14-11-21 16:32:1416587528] Plotting transcript reports.

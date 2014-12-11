@@ -1,12 +1,12 @@
-[14-09-17 12:17:1410952640] Dataset ID: WT1B
-[14-09-17 12:17:1410952640] G-tail SAM: /nfs/research2/goldman/botond/paper-pat-seq/Aln/WT1B/gtail_aln/gtail_reads.sam
-[14-09-17 12:17:1410952640] NVTR SAM: /nfs/research2/goldman/botond/paper-pat-seq/Aln/WT1B/nvtr_aln/nvtr_reads.sam
-[14-09-17 12:17:1410952640] Read portion used when classifying: 14
-[14-09-17 12:17:1410952640] Minimum tag length: 3
-[14-09-17 12:17:1410952640] Maximum number of Ns in the first 14 bases: 6
-[14-09-17 12:17:1410952640] List of traget transcripts: /nfs/research2/goldman/botond/paper-pat-seq/Aln/reference/genes_single_iso.tab
-[14-09-17 12:17:1410952640] Minimum mapping quality: 30
-[14-09-17 12:17:1410952640] Number of target transcripts specified: 6385
-[14-09-17 12:39:1410953953] Mean tail run length: 46.3517
-[14-09-17 12:39:1410953953] Pickling results.
-[14-09-17 12:39:1410953954] Plotting transcript reports.
+[14-11-21 16:26:1416587203] Dataset ID: WT1B
+[14-11-21 16:26:1416587203] G-tail SAM: /nfs/research2/goldman/botond/paper-pat-seq/Aln/WT1B/gtail_aln/gtail_reads.sam
+[14-11-21 16:26:1416587203] NVTR SAM: /nfs/research2/goldman/botond/paper-pat-seq/Aln/WT1B/nvtr_aln/nvtr_reads.sam
+[14-11-21 16:26:1416587203] Read portion used when classifying: 14
+[14-11-21 16:26:1416587203] Minimum tag length: 3
+[14-11-21 16:26:1416587203] Maximum number of Ns in the first 14 bases: 6
+[14-11-21 16:26:1416587203] List of traget transcripts: /nfs/research2/goldman/botond/paper-pat-seq/Aln/reference/genes_single_iso.tab
+[14-11-21 16:26:1416587203] Minimum mapping quality: 30
+[14-11-21 16:26:1416587203] Number of target transcripts specified: 6385
+[14-11-21 16:48:1416588485] Mean tail run length: 46.3517
+[14-11-21 16:48:1416588485] Pickling results.
+[14-11-21 16:48:1416588485] Plotting transcript reports.
