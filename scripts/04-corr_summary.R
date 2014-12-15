@@ -1,4 +1,4 @@
-#!/usr/bin/env Rscript --silent
+#!/usr/bin/env Rscript 
 
 library(optparse)
 library(ggplot2)
