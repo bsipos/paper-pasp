@@ -43,7 +43,7 @@ import      snorm
 
 def parse_arguments():
     """ Parse arguments """
-    parser = argparse.ArgumentParser(description='Test for differential polyadenylation in PAT-seq data (%s).' % VERSION)
+    parser = argparse.ArgumentParser(description='Test for differential polyadenylation in PASP data (%s).' % VERSION)
     parser.add_argument('-a', metavar='a_pickles', type=str, nargs='*', help='Parsed read pickles - group A.', required=True)
     parser.add_argument('-na', metavar='a_name', type=str, help='Name of data group A.', required=True)
     parser.add_argument('-b', metavar='b_pickles', type=str, nargs='*', help='Parsed read pickles - group B.', required=True)

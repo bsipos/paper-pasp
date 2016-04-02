@@ -45,7 +45,7 @@ import matplotlib.cm as cmx
 
 def parse_arguments():
     """ Parse arguments """
-    parser = argparse.ArgumentParser(description='Align PAT-seq reads using Bowtie2 (%s).' % VERSION)
+    parser = argparse.ArgumentParser(description='Align PASP reads using Bowtie2 (%s).' % VERSION)
     parser.add_argument('-1', metavar='fq1', type=str, default="", help='First FASTQ file.', required=True)
     parser.add_argument('-2', metavar='fq2', type=str, default="", help='Second FASTQ file.', required=True)
     parser.add_argument('-f', metavar='ref', type=str, default="", help='Reference fasta.', required=True)

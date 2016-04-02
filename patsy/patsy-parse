@@ -46,7 +46,7 @@ import      re
 
 def parse_arguments():
     """ Parse arguments """
-    parser = argparse.ArgumentParser(description='Parse classified and aligned PAT-seq read pairs (%s).' % VERSION)
+    parser = argparse.ArgumentParser(description='Parse classified and aligned PASP read pairs (%s).' % VERSION)
     parser.add_argument('-g', metavar='gtail_sam', type=str, default="", help='SAM file containing G-tail alignments.', required=True)
     parser.add_argument('-n', metavar='nvtr_sam', type=str, default="", help='SAM file containing NVTR alignments.', required=True)
     parser.add_argument('-d', metavar='dataset_id', type=str, help='Dataset identifier.', required=True)
