@@ -1,4 +1,4 @@
-A pipeline to analyse PAT-seq data
+A pipeline to analyse PASP data
 ==================================
 
 Reference
@@ -6,7 +6,7 @@ Reference
 
 This repository contains the pipeline and raw results described in the manuscript:
 
-- Botond Sipos, Adrian M. Stütz, Greg Slodkowicz, Tim Massingham, Jan Korbel, Nick Goldman: *PAT-seq - a whole-transcriptome poly(A) tail length determination assay for the Illumina platform*.
+- Botond Sipos, Adrian M. Stütz, Greg Slodkowicz, Tim Massingham, Jan Korbel, Nick Goldman: *PASP - a whole-transcriptome poly(A) tail length determination assay for the Illumina platform*.
 
 Click [here](https://github.com/sbotond/paper-pat-seq/blob/master/ExpInfo/README.md) for more details on the wetlab experiment.
 
@@ -137,7 +137,7 @@ usage: patsy-align [-h] -1 fq1 -2 fq2 -f ref [-o outdir] [-s stats_pickle]
                    [-l gtail_sig] [-G gtag_min] [-N max_N] [-I min_fsize]
                    [-X max_fsize] [-p nr_threads] [-r report]
 
-Align PAT-seq reads using Bowtie2 (1.1).
+Align PASP reads using Bowtie2 (1.1).
 
 optional arguments:
   -h, --help       show this help message and exit
@@ -156,14 +156,14 @@ optional arguments:
   -r report        Report PDF.
 ```
 
-### *patsy-parse* - parse classified and aligned PAT-seq read pairs
+### *patsy-parse* - parse classified and aligned PASP read pairs
 
 ```
 usage: patsy-parse [-h] -g gtail_sam -n nvtr_sam -d dataset_id -f ref
                    [-l gtail_sig] [-G gtag_min] [-N max_N] [-e err_tol]
                    [-o out_pickle] [-i tr_list] [-q min_q] [-r report] [-t]
 
-Parse classified and aligned PAT-seq read pairs (1.1).
+Parse classified and aligned PASP read pairs (1.1).
 
 optional arguments:
   -h, --help     show this help message and exit
@@ -182,7 +182,7 @@ optional arguments:
   -t             Plot per-transcript coverage reports.
 ```
 
-### *patsy-test* - test for differential polyadenylation in PAT-seq data
+### *patsy-test* - test for differential polyadenylation in PASP data
 
 ```
 usage: patsy-test [-h] -a [a_pickles [a_pickles ...]] -na a_name -b
@@ -192,7 +192,7 @@ usage: patsy-test [-h] -a [a_pickles [a_pickles ...]] -na a_name -b
                   [-otr out_runs_prefix] [-orr out_rep_prefix] [-r report]
                   [-t]
 
-Test for differential polyadenylation in PAT-seq data (1.1).
+Test for differential polyadenylation in PASP data (1.1).
 
 optional arguments:
   -h, --help            show this help message and exit
