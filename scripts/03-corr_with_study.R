@@ -39,4 +39,4 @@ sc  <- cor(lengths1[tr], lengths2[tr],use="complete.obs")
 p <- ggplot(data.frame(x=lengths1[tr],y=lengths2[tr]),aes(x=x,y=y)) + geom_point(size=1.1,alpha=0.4) + geom_smooth(method=lm)
 p<- p + ggtitle(sprintf("Cross-study correlation (r=%g,n=%d)", sc, length(tr) ))
 p<- p + xlab(args$name1) + ylab(args$name2)
-
+print(p)
