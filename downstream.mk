@@ -61,9 +61,3 @@ corr_with_studies:
 	@scripts/03-corr_with_study.R --d1 $(PASTA_DATA) --name1 PASTA_weighted_length --df1 weighted_length --tf1 transcripts --d2 $(GCF_TEST1) --name2 PAT_WT1 --df2 runs_ma --tf2 transcripts --rep $(COR_WT1_PASTA)
 	@scripts/03-corr_with_study.R --d1 $(PASTA_DATA) --name1 PASTA_weighted_length --df1 weighted_length --tf1 transcripts --d2 $(GCF_TEST2) --name2 PAT_WT2 --df2 runs_ma --tf2 transcripts --rep $(COR_WT2_PASTA)
 
-TECH_DESIGN_FILE=technical_replicates.tab
-BIO_DESIGN_FILE=biological_replicates.tab
-SUMMARY_REPORT=Replicate_correlations.pdf
-
-corr_summary:
-	@(cd Log; ../scripts/04-corr_summary.R --tech_replicates $(TECH_DESIGN_FILE) --bio_replicates $(BIO_DESIGN_FILE) --rep $(SUMMARY_REPORT))
