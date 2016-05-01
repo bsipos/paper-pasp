@@ -52,7 +52,7 @@ COR_WT2_PASTA		= $(LOG)/WT2_vs_PASTA.pdf
 corr_with_studies:
 	@scripts/03-corr_with_study.R --d1 $(GCF_TEST1) --name1 PAT_WT1 --df1 runs_ma --tf1 transcripts --d2 "ExtData/PASTA_polyAranking.tab" --name2 PASTA --df2 weighted_length --tf2 transcripts --rep test1.pdf
 	@scripts/03-corr_with_study.R --d1 $(GCF_TEST2) --name1 PAT_WT2 --df1 runs_ma --tf1 transcripts --d2 "ExtData/PASTA_polyAranking.tab" --name2 PASTA --df2 weighted_length --tf2 transcripts --rep test2.pdf
-	@scripts/03-corr_with_study.R --d1 $(GCF_TEST1) --name1 PAT_WT1 --df1 runs_ma --tf1 transcripts --d2 $(COR_PAL_CYT_PASTA) --name2 PASTA --df2 Mean.TL --tf2 Transcript.ID --rep $(COR_PAL_TOTAL_WT1)
+	@scripts/03-corr_with_study.R --d1 $(GCF_TEST1) --name1 PAT_WT1 --df1 runs_ma --tf1 transcripts --d2 $(PAL_TOTAL) --name2 PASTA --df2 Mean.TL --tf2 Transcript.ID --rep $(COR_PAL_TOTAL_WT1)
 	@scripts/03-corr_with_study.R --d1 $(GCF_TEST2) --name1 PAT_WT2 --df1 runs_ma --tf1 transcripts --d2 $(PAL_TOTAL) --name2 PAL_total --df2 Mean.TL --tf2 Transcript.ID --rep $(COR_PAL_TOTAL_WT2)
 	@scripts/03-corr_with_study.R --d1 $(GCF_TEST1) --name1 PAT_WT1 --df1 runs_ma --tf1 transcripts --d2 $(PAL_CYT) --name2 PAL_cyt --df2 Mean.TL --tf2 Transcript.ID --rep $(COR_PAL_CYT_WT1)
 	@scripts/03-corr_with_study.R --d1 $(GCF_TEST2) --name1 PAT_WT2 --df1 runs_ma --tf1 transcripts --d2 $(PAL_CYT) --name2 PAL_cyt --df2 Mean.TL --tf2 Transcript.ID --rep $(COR_PAL_CYT_WT2)
